@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:is(.dim .dark\:prose-invert) {
+    --tw-prose-body: var(--tw-prose-invert-body);
+    --tw-prose-headings: var(--tw-prose-invert-headings);
+    --tw-prose-lead: var(--tw-prose-invert-lead);
+    --tw-prose-links: var(--tw-prose-invert-links);
+    --tw-prose-bold: var(--tw-prose-invert-bold);
+    --tw-prose-counters: var(--tw-prose-invert-counters);
+    --tw-prose-bullets: var(--tw-prose-invert-bullets);
+    --tw-prose-hr: var(--tw-prose-invert-hr);
+    --tw-prose-quotes: var(--tw-prose-invert-quotes);
+    --tw-prose-quote-borders: var(--tw-prose-invert-quote-borders);
+    --tw-prose-captions: var(--tw-prose-invert-captions);
+    --tw-prose-kbd: var(--tw-prose-invert-kbd);
+    --tw-prose-kbd-shadows: var(--tw-prose-invert-kbd-shadows);
+    --tw-prose-code: var(--tw-prose-invert-code);
+    --tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+    --tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+    --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+    --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+}
+
+/* :root { */
+/*     --foreground-rgb: 0, 0, 0; */
+/*     --background-start-rgb: 214, 219, 220; */
+/*     --background-end-rgb: 255, 255, 255; */
+/* } */
+
+/* @media (prefers-color-scheme: dark) { */
+/*     :root { */
+/*         --foreground-rgb: 255, 255, 255; */
+/*         --background-start-rgb: 0, 0, 0; */
+/*         --background-end-rgb: 0, 0, 0; */
+/*     } */
+/* } */
+
+/* body { */
+/*     color: rgb(var(--foreground-rgb)); */
+/*     background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) */
+/*         rgb(var(--background-start-rgb)); */
+/* } */
+
+/**
+ * Archived
+ *
+ * .mask {
+ *     mask-size: contain;
+ *     mask-position: center;
+ *     mask-repeat: no-repeat;
+ * }
+ *
+ * .mask-squircle {
+ *     mask-image: url("/assets/ios-mask-icon.svg");
+ * }
+ *
+ * .mask-squircle-wrapper {
+ *     display: grid;
+ *     place-items: center;
+ *     position: relative;
+ * }
+ *
+ * .mask-squircle-wrapper::after {
+ *     content: "";
+ *     position: absolute;
+ *     z-index: 10;
+ *     width: 116%;
+ *     height: 116%;
+ *     background-size: cover;
+ *     background-image: url("/assets/ios-mask-border.svg");
+ * }
+ */
